@@ -86,5 +86,11 @@ You check by giving,
      
          NAME                              READY   STATUS    RESTARTS   AGE
          mongo-fcddb8dfd-nq4p7             1/1     Running   0          2h
+         
+# Monitoring
+
+We can able to monitor all the above by using the **Minikube Dashboard** to run the dashbord use the below command
+
+           minikube dashborad
       
       
