@@ -47,13 +47,13 @@ Following file is used to create the volume for the mongo. So i used the object 
        
   To list the persistent volumes, 
   
-    kubectl get pv                                                                                                                                                                                                                                             NAME                                       CAPACITY   ACCESS MODES   RECLAIM POLICY   STATUS   CLAIM  
+    kubectl get pv                                                                                                                                                                                                                                               NAME                                       CAPACITY   ACCESS MODES   RECLAIM POLICY   STATUS   CLAIM  
     
-    pvc-07063cf6-042b-11e9-b3e2-080027f13b47   5Gi        RWO            Delete           Bound    default/mongo-data
+      pvc-07063cf6-042b-11e9-b3e2-080027f13b47   5Gi        RWO            Delete           Bound    default/mongo-data
     
-    STORAGECLASS   REASON   AGE
+      STORAGECLASS   REASON   AGE
     
-    standard                1h
+      standard                1h
 
 2. [Deployment.yaml](https://github.com/tibrahul/Mongo-Kubernetes/blob/master/docs/Deployment.yaml)
  
