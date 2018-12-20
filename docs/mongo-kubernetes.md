@@ -45,7 +45,7 @@ Following file is used to create the volume for the mongo. So i used the object 
  
          kubectl create -f mongo-volume-claim.yaml
        
-To list the persistent volumes, 
+  To list the persistent volumes, 
   
         kubectl get pv                                                                                                                                                                                                                                     
           NAME                                       CAPACITY   ACCESS MODES   RECLAIM POLICY   STATUS   CLAIM  
@@ -59,7 +59,7 @@ To list the persistent volumes,
          kubectl create -f Deployment.yaml
          
          
-To list the deployment,
+  To list the deployment,
          
          kubectl get deployment
          
@@ -71,7 +71,7 @@ To list the deployment,
  
          kubectl create -f Service.yaml
          
-To list the service,
+  To list the service,
  
           kubectl get service
  
